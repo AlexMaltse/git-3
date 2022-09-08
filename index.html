@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Барбершоп "Бородинcкий"</title>
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main-wrapper">
+<header class="main-header">
+	<nav class="main-navigation">
+		<a class="main-header-logo">
+			<img src="img/index-logo.png" width="368" height="153" alt="Логотип барбершоп Бородинский">
+		</a>
+		<div class="main-navigation-wrapper">
+			<div class="container">
+		<ul class="site-navigation">
+			<li><a href="информация.html">Информация</a></li>
+			<li><a hre f="новости.html">Новости</a></li>
+			<li><a href="цены.html">Прайс</a></li>
+			<li><a href="магазин.html">Магазин</a></li>
+			<li><a href="контакты.html">Контакты</a></li>
+		</ul>
+		<ul class="user-navigation">
+			<li>
+			<a href="login.html">
+			Вход
+		</a>
+			</li>
+		</ul>
+		</div>
+			</div>
+	</nav>
+</header>
+
+<main class="container">
+	<h1 class= "visually-hidden">Барбершоп Бородинский</h1>
+
+	<section class="feature">
+		<h2 class="visually-hidden"> Преиммущества</h2>
+		<ul class="feature-list">
+			<li class="feature-item">
+		<h3>Быстро</h3>
+		<p>Очень быстро очень быстро очень быстро очень быстро</p>
+	    </li>
+		<li class="feature-item">
+		<h3>Круто</h3>
+		<p> Круто Круто круто кроуто п=круто круто круто у=круто круто круто круто круто круто</p>
+		</li>
+		<li class="feature-item">
+		<h3>Дорого</h3>
+		<p>Дорого дорого дорого дорого дорого дорого дорого дорого дорого дорого дорого дорого дорого дорого дорого дорого</p>
+		</li>
+		</ul>
+	</section> 
+
+<div class="index-columns">
+	<section class="news">
+		<h2>Новости</h2>
+		<ul class="news-list">
+			<li class="news-item">
+				<p>Нам наконец-то завезли ягер. Теперь вы можете пропустить стаканчик во время стрижки</p>
+			<time datetime="2022-07-23">23 июля</time>
+			</li>
+
+			<li>
+				<p>В нашей команде пополнение. Знакомьтесь! Джо Блэк! Обладатель множества титулов и наград</p>
+			<time datetime="2022-07-24">24 июля</time>
+			</li>
+		</ul>
+ <a href="новости.html">Все новости</a>
+	</section>
+
+	<section class="gallery">
+		<h2>Фотогалерея</h2>
+		<figure class="gallery-content">
+			<a href="#">
+				<img src="img/Layer 21.jpg" alt="Интерьер" width="286" height="164">
+			</a>
+		</figure>
+		<button class="button button-gallery gallery-button-back" type="button">Назад</button>
+		<button class="button button-gallery gallery-button-next" type="button">Вперед</button>
+	</section>
+	</div>
+
+<div class="index-columns">
+	<section class="contacts">
+		<h2>Контактная информация</h2>
+		<p>Барбершоп "Бородинский"<br>
+		Адрес: г. Санкт-петербург, <br>
+		Б. Конюшенная, д. 19/8 <br>
+	   Телефон 89527703142 <br>
+	время работы</p>
+			<a class="button" href="map.html">Как проехать</a>
+			<a class="button" href="contacts.html">Обратная связь</a>
+	</section>
+
+	<section class="appointment">
+		<h2>Записаться</h2>
+		<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+		<form class="appointment-info" action="#" method="post">
+			<p class="appointment-item">
+				Дата
+				<input type="date" name="date" value="2022-08-22">
+			</p>
+			<p class="appointment-item">
+				Время <br>
+				<input type="time" name="time" value="12:40">
+			</p>
+			<p class="appointment-item">
+				ФИО
+				<input type="name" name="name" value="" placeholder="ФИО">
+			</p>
+			<p class="appointment-item">
+				Телефон 
+				<input type="tel" name="phone" value="" placeholder="89527703143">
+			</p>
+			<button class="button" type="submit">Отправить</button>
+		</form>
+	</section>
+</div>
+</main>
+
+<footer class="main-footer">
+	<p class="footer-contacts"> 
+	Барбершоп "Бородинский"<br>
+	Адрес: г. Санкт-Петербург, ул.Б. Конюшенная,д. 19 <br>
+	<a href="map.html">как нас найти</a> <br>
+	телефон: 89527703142
+	</p>
+<div class="footer-social">
+<b>Давайте дружить!</b>
+<ul>
+<li><a class="social-button" href="#">Вконтакте</a></li>
+<li><a class="social-button" href="#">Фейсбук</a></li>
+<li><a class="social-button" href="#">Инстаграм</a></li>
+</ul>
+</div>
+</footer>
+
+<section class="modal modal-login">
+	<h2>Личный кабинет</h2>
+	<p>Введите свой логин и пароль.</p>
+	<form class="login-form" action="#">
+		<p>
+			<label class="visual-hidden" for="user-login">Логин </label>
+			<input class="login-icon-user" type="text" name="login" placeholder="sanchik080994@rambler,ru">
+		</p>
+		<p>
+			<label class="visual-hidden" for="user-login">Логин </label>
+			<input class="login-icon-password" type="password" name="password" placeholder="**************">
+		</p>
+		<p class="login-password-info"> 
+			<label class="login-chekbox">
+				<input type="chekbox" name="remember" class="visually-hidden">
+				<span class="chekbox-indicator"></span>
+				Запомнить меня
+			</label>
+			<a class=" restore" href="#">Я забыл пароль</a>
+		</p>
+<button class="button" type="submit">Войти</button>
+	</form>
+	<button class="modal-close" type="button">Закрыть</button>
+</section>
+
+
+	<section>
+		<form action="#" method="post">
+			<p>
+				Login
+			<input type="login" name="login" placeholder="Sanchik080994@rambler.ru">
+			</p>
+			<p>
+				Password
+				<input type="password" name="password" placeholder="**************">
+			</p>
+			<button type="submit">
+				Войти
+			</button>
+		</form>
+	</section>
+</div>
+</body>
+</html>
